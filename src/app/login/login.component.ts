@@ -12,8 +12,6 @@ export class LoginComponent {
   constructor(private authService: AuthService, private router: Router) { }
 
   login() {
-    this.authService.login();
-    this.router.navigate(['/profile/1']); // Redirect to profile after login
   }
 
 }
